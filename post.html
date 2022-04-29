@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>JC's Blog</title>
+    <link href="css/styles.css" rel="stylesheet" /> 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">JC's</a>
+
+
+          <!--el siguiente boton es para abrir el menu del nav var cuando este se colapsa -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse " id="collapsibleNavbar">
+            
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a  class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Acerca De</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" name="" placeholder="Search">
+              <button class="btn btn-primary" type="button">Buscar</button>
+            </form>
+          </div>
+
+        </div>
+ 
+      </nav>
+
+      <header class="width:100% p-5 bg-primary text-white text-center" style="margin-top:40px">
+        <h1>Hola Mundo!</h1>
+        <p>Aprendiendo a saludar en varios lenguajes de programación</p>
+      </header>
+
+      <!--Contenido del post -->
+      <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>
+                          Primero que nada, quiero darte la bienvenida a este blog, el cual es un proyecto personal que tenía en mente desde hace tiempo y ahora, con el pretexto de poner en práctica lo que he aprendido sobre diseño web y programación, por fin me animé a empezarlo. 
+
+                          
+
+                        </p>
+                          Una de las primeras cosas que se aprende al estudiar cualquier idioma es a decir "Hola", y en los distintos lenguajes de programación que existen esa no es la excepción ya que ,en general, el primer programa que uno escribe es el que imprime la frase: "Hola Mundo!" en pantalla. Así que veamos cómo se saluda en algunos lenguajes de programación.
+                        <p>
+                          
+                        </p>
+                        <h2 class="section-heading">Saludando en el lenguaje C</h2>
+                        <p>
+                          El Lenguaje C, según los expertos, es uno de los más complejos que existen pero creo que toda persona interesada en la programación debería aprenderlo alguna vez, y aunque hay otros lenguajes como python que son más recomendados para empezar en el mundo de la programación, este lenguaje siempre debería estar en tu lista, junto con C++.<br> A continuación está el código en este lenguaje para saludar en pantalla.<br>
+                          
+                          
+                          
+                          
+
+                        </p>
+                        <code>
+                            #include &lt;stdio.h&gt;
+                            
+                            int main() 
+                            {
+                              printf("Hola Mundo!");
+                              return 0;
+                            }
+                        </code>
+                        <h2 class="section-heading">Hi Python!</h2>
+                        <p>
+                          Python es actualmente uno de los lenguajes de programación más importante que existe y es muy amigable para las personas que quieran empezar a aprender a programar, además de que es muy versátil ya que se usa para el desarrollo web, la programación videojuegos, data science, etc.<br>
+
+                          Imprimir un saludo en pantalla en este lenguaje es tan sencillo como esto:
+                        </p>
+
+
+                        <code>
+                          print('Hola Mundo!')
+                        </code>
+                        <br>
+                        <h2>Ahora en Fortran</h2>
+                        <p>
+                          Para los profesionales de la ciencia, el lenguaje Fortran (<i>Formula Translation</i>) es una de las herramientas más poderosas que existen. Si te interesa saber un poco más sobre este lenguaje puedes checar esta página de <a href="https://ch4rli3gg.github.io/Proyecto-de-pagina-de-documentacion/">documentación Fortran</a>.<br>
+                          Para escribir "Hola mundo" en pantalla el código es el siguiente:
+                        </p>
+                        
+                        <code>
+                          program HolaMundo
+                            write (*,*) "Hola mundo!"
+                          end program
+                        </code>
+
+                        <p>
+                          Estos son algunos ejemplos de entre la vasta cantidad de lenguajes de programación que existen en la actualidad, y la ventaja es que en la web se pueden encontrar muchos recursos para aprender el que más se ajuste a tus necesidades. ¿Y tú, cuántos y cuáles lenguajes más conoces?
+                        </p>
+
+                        <p>
+                          Nos vemos en otro post!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+      
+        
+      
+      
+
+      
+
+      
+    </div>
+
+    <footer class=" bg-dark text-center text-white " >
+  <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          >
+
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="#">JC</a>
+    </div>
+  <!-- Copyright -->
+</footer>  
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
